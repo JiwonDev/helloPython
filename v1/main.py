@@ -10,8 +10,7 @@ def isOperator(token: str) -> bool:
     operators = ['+', '-', '*', '/']
     if token in operators:
         return True
-    else:
-        return False
+    return False
 
 
 def input_validator(tokens: list) -> bool:
