@@ -1,8 +1,6 @@
-def print_hi(name):
+def main(name):
     print(f'Hi, {name}')
 
 
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# bug issue
+    main('PyCharm')
